@@ -33,8 +33,8 @@ useEffect(()=>{
   return (
     <div className='home'>
       <div className="hero">
-        <h1>Welcome to, <br /> Coin Genius</h1>
-        <p>"Cryptocurrency is not just a financial innovation, its a revolution in how we perceive and manage value in the digital age." <br /> Sign Up to explore more about Crypto.</p>
+        <h1>Welcome to <br /> Coin Genius</h1>
+        <p>Cryptocurrency is not just a financial innovation, its a revolution in how we perceive and manage value in the digital age. <br /> Sign Up to explore more about Crypto.</p>
         <form onSubmit={searchHandler}>
           <input onChange={inputHandler} list='coinlist' value={input} type="text" placeholder='Search Coin' required/>
           <datalist id='coinlist'>
